@@ -1,8 +1,15 @@
 package com.anhtu;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Geometry {
-    String type;
-    double[] coordinates;
+    private String type;
+    private List<Double> coordinates;
+
+    Geometry() {
+        coordinates = new ArrayList<>();
+    }
 
     public String getType() {
         return type;
@@ -12,20 +19,20 @@ public class Geometry {
         this.type = type;
     }
 
-    public double[] getCoordinates() {
+    List<Double> getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(double[] coordinates) {
+    public void setCoordinates(List<Double> coordinates) {
         this.coordinates = coordinates;
     }
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Geometry == false)
+        if (!(obj instanceof Geometry))
             return false;
 
         Geometry geometry = (Geometry) obj;
-        return coordinates[0] == geometry.getCoordinates()[0] && coordinates[1] == geometry.getCoordinates()[1];
+        return coordinates.get(0).equals(geometry.getCoordinates().get(0)) && coordinates.get(0).equals(geometry.getCoordinates().get(0));
     }
 }

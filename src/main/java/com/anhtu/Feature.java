@@ -1,10 +1,10 @@
 package com.anhtu;
 
 public class Feature {
-    String type;
-    Properties properties;
-    Geometry geometry;
-    String id;
+    private String type;
+    private Properties properties;
+    private Geometry geometry;
+    private String id;
 
     public String getType() {
         return type;
@@ -14,7 +14,7 @@ public class Feature {
         this.type = type;
     }
 
-    public Properties getProperties() {
+    Properties getProperties() {
         return properties;
     }
 
@@ -22,7 +22,7 @@ public class Feature {
         this.properties = properties;
     }
 
-    public Geometry getGeometry() {
+    Geometry getGeometry() {
         return geometry;
     }
 

@@ -1,12 +1,12 @@
 package com.anhtu;
 
 public class Metadata {
-    long generated;
-    String url;
-    String title;
-    String api;
-    int count;
-    int status;
+    private long generated;
+    private String url;
+    private String title;
+    private String api;
+    private int count;
+    private int status;
 
     public long getGenerated() {
         return generated;

@@ -1,32 +1,32 @@
 package com.anhtu;
 
 public class Properties {
-    double mag;
-    String place;
-    long time;
-    long updated;
-    int tz;
-    String url;
-    String detail;
-    int felt;
-    double cdi;
-    double mmi;
-    String alert;
-    String status;
-    int tsunami;
-    int sig;
-    String net;
-    String code;
-    String ids;
-    String sources;
-    String types;
-    int nst;
-    double dmin;
-    double rms;
-    double gap;
-    String magType;
-    String type;
-    String title;
+    private double mag;
+    private String place;
+    private long time;
+    private long updated;
+    private int tz;
+    private String url;
+    private String detail;
+    private int felt;
+    private double cdi;
+    private double mmi;
+    private String alert;
+    private String status;
+    private int tsunami;
+    private int sig;
+    private String net;
+    private String code;
+    private String ids;
+    private String sources;
+    private String types;
+    private int nst;
+    private double dmin;
+    private double rms;
+    private double gap;
+    private String magType;
+    private String type;
+    private String title;
 
     public String getTitle() {
         return title;

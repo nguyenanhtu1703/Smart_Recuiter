@@ -1,10 +1,12 @@
 package com.anhtu;
 
+import java.util.List;
+
 public class FeatureCollection {
-    String type;
-    Metadata metadata;
-    double[] bbox;
-    Feature[] features;
+    private String type;
+    private Metadata metadata;
+    private List<Double> bbox;
+    private List<Feature> features;
 
     public String getType() {
         return type;
@@ -22,19 +24,19 @@ public class FeatureCollection {
         this.metadata = metadata;
     }
 
-    public double[] getBbox() {
+    public List<Double> getBbox() {
         return bbox;
     }
 
-    public void setBbox(double[] bbox) {
+    public void setBbox(List<Double> bbox) {
         this.bbox = bbox;
     }
 
-    public Feature[] getFeatures() {
+    public List<Feature> getFeatures() {
         return features;
     }
 
-    public void setFeatures(Feature[] features) {
+    public void setFeatures(List<Feature> features) {
         this.features = features;
     }
 }
