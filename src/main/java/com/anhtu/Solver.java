@@ -1,12 +1,9 @@
 package com.anhtu;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 class Solver {
-    private static final double RADIUS_OF_EARTH_KM = 6371;
-
     List<Feature> solve(List<Feature> earthquakes, Geometry cityPoint) {
         List<Feature> earthquakesResult = new ArrayList<>();
 
@@ -53,7 +50,7 @@ class Solver {
         ans = 2 * Math.asin(Math.sqrt(ans));
 
         // Calculate the result
-        ans = ans * RADIUS_OF_EARTH_KM;
+        ans = ans * Configuration.RADIUS_OF_EARTH_KM;
 
         return ans;
         //return org.apache.lucene.util.SloppyMath.haversinMeters(lat1, long1, lat2, long2) / 1000;

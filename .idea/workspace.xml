@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae93c90f-5c05-4ff2-8ac7-3ea886249eb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/DownloadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/ReadInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Feature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/FeatureCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/FeatureCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Geometry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/Metadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Metadata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/anhtu/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anhtu/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/App$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anhtu/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anhtu/Solver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/Feature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/Feature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/FeatureCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/FeatureCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/Geometry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/Geometry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/Metadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/Metadata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anhtu/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anhtu/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anhtu/Solver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anhtu/Solver.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +159,7 @@
       <workItem from="1573340437462" duration="1998000" />
       <workItem from="1573472100492" duration="5597000" />
       <workItem from="1573479893988" duration="223000" />
-      <workItem from="1573487694286" duration="2677000" />
+      <workItem from="1573487694286" duration="5655000" />
     </task>
     <servers />
   </component>
